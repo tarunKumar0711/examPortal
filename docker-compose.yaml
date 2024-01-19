@@ -1,0 +1,32 @@
+version: '3.8'  # Docker Compose file version
+
+services:
+  postgres:           # Service for the database
+    container_name: postgres-sql
+    image: postgres:latest  # Docker image to use
+    environment:
+      POSTGRES_DB: exam_portal
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password  
+    ports:
+      - 5432:5432
+    networks:
+      - exam-network  # Connect to the same network as web
+             # Services/containers configuration
+  web:          # Service for the web server
+    image: exam-portal  # Docker image to use
+    ports:
+      - "8080:8080"  # Port mapping (host:container)
+    build:
+      context: .
+    networks:
+      - exam-network  # Connect to a specified network
+    depends_on:
+    - postgres 
+
+networks:       # Define networks
+  exam-network:
+    driver: bridge  # Specify network driver
+
+volumes:         # Define volumes
+  pgdata:

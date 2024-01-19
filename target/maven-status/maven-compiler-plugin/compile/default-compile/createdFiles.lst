@@ -1,0 +1,11 @@
+com/example/examPortal/repositories/UserRepository.class
+com/example/examPortal/serviceImpl/UserServiceImpl.class
+com/example/examPortal/controller/UserController.class
+customExceptions/NoUserFound.class
+customExceptions/DuplicateUserName.class
+com/example/examPortal/entity/UserRole.class
+com/example/examPortal/repositories/RolesRepository.class
+com/example/examPortal/service/UserService.class
+com/example/examPortal/entity/User.class
+com/example/examPortal/ExamPortalApplication.class
+com/example/examPortal/entity/Role.class

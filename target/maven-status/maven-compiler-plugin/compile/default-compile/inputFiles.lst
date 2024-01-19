@@ -1,0 +1,11 @@
+/home/tarun/eclipse-workspace/Exam_Portal/examPortal/src/main/java/customExceptions/DuplicateUserName.java
+/home/tarun/eclipse-workspace/Exam_Portal/examPortal/src/main/java/com/example/examPortal/repositories/RolesRepository.java
+/home/tarun/eclipse-workspace/Exam_Portal/examPortal/src/main/java/com/example/examPortal/ExamPortalApplication.java
+/home/tarun/eclipse-workspace/Exam_Portal/examPortal/src/main/java/com/example/examPortal/service/UserService.java
+/home/tarun/eclipse-workspace/Exam_Portal/examPortal/src/main/java/customExceptions/NoUserFound.java
+/home/tarun/eclipse-workspace/Exam_Portal/examPortal/src/main/java/com/example/examPortal/repositories/UserRepository.java
+/home/tarun/eclipse-workspace/Exam_Portal/examPortal/src/main/java/com/example/examPortal/serviceImpl/UserServiceImpl.java
+/home/tarun/eclipse-workspace/Exam_Portal/examPortal/src/main/java/com/example/examPortal/entity/User.java
+/home/tarun/eclipse-workspace/Exam_Portal/examPortal/src/main/java/com/example/examPortal/entity/Role.java
+/home/tarun/eclipse-workspace/Exam_Portal/examPortal/src/main/java/com/example/examPortal/controller/UserController.java
+/home/tarun/eclipse-workspace/Exam_Portal/examPortal/src/main/java/com/example/examPortal/entity/UserRole.java
